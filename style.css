@@ -1,0 +1,46 @@
+.header
+{
+    margin : 2rem;
+    display: flex;
+    color : white;
+    font-family: 'Roboto', sans-serif;
+    font-size:min(2rem, 5vw);
+    justify-content: center;
+    align-items: center;
+
+}
+.content
+{
+    background-color: rebeccapurple;
+    display: flex;
+
+}
+.footer
+{
+    background-color: goldenrod;
+}
+body
+{
+    display: flex;
+    flex-direction: column;
+    margin : 0;
+    background-color: #121212;
+}
+.EAS-options
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+
+}
+.EAS-options-button
+{
+    margin: 0.1em;
+    border: 0;
+    border-radius: 0.1rem;
+    size: 1rem;
+    min-width: 1rem;
+    cursor: pointer;
+}
