@@ -15,34 +15,42 @@
     </div>
         <!-- Content -->
     <div class = "content">
-        <h1>Content</h1>
         <div class = "EAS-options">
-            <button class = "EAS-options-button" id = "EAS-options-button-color">Color</button>
-
-            <button class = "EAS-options-button" id = "EAS-options-button-pen">
-                <div class = "fa-solid fa-pen"></div>
-             </button>
-            <button class = "EAS-options-button" id = "EAS-options-button-eraser">
-                <div class = "fa-solid fa-eraser"></div>
-            </button>
-            <button class = "EAS-options-button" id = "EAS-options-button-rainbow">
-                <div class = "fa-solid fa-rainbow"></div>
-            </button>
-            <button class = "EAS-options-button" id = "EAS-options-button-clear">
-                <div class = "fa-solid fa-trash"></div>
-            </button>
-            <button class = "EAS-options-button" id = "EAS-options-button-size">
-                <div class = "fa-solid fa-ruler"></div>
-            </button>
+            <h2 class = "EAS-options-header"></h2>
+            <div class = "EAS-options-button-wrapper">
+                <button class = "EAS-options-button" id = "EAS-options-button-color">Color</button>
+                <button class = "EAS-options-button" id = "EAS-options-button-pen">
+                    <div class = "fa-solid fa-pen"></div>
+                 </button>
+                <button class = "EAS-options-button" id = "EAS-options-button-eraser">
+                    <div class = "fa-solid fa-eraser"></div>
+                </button>
+                <button class = "EAS-options-button" id = "EAS-options-button-rainbow">
+                    <div class = "fa-solid fa-rainbow"></div>
+                </button>
+                <button class = "EAS-options-button" id = "EAS-options-button-clear">
+                    <div class = "fa-solid fa-trash"></div>
+                </button>
+                <button class = "EAS-options-button" id = "EAS-options-button-size" onclick="displayBoardSlider()">
+                    <div class = "fa-solid fa-ruler"></div>
+                </button>
+                <div class = "EAS-options-button-wrapper" id = "slider-wrapper"><input type="range" min="16" max="100" value="16" class="slider" id="board-slider"></div>
+                
+            </div>
             
+        
+
+        </div>
+
         <div class = "EAS-canvas">
 
         </div>
 
     </div>
+</div>
         <!-- Footer -->
     <div class = "footer">
-        <h1>Footer</h1>
+        <p>rardev <a href = "https://github.com/rardev"><img class = "gh_logo" src = "/graphics/github-mark-white.svg"></a></p>
     </div>
     
     
